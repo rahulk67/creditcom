@@ -18,7 +18,7 @@ app.use(express.urlencoded({ limit: '50mb', extended: true }));
 app.use(cookieParser())
 app.use(express.static('public'));
 app.use(cors({
-    origin: ["http://localhost:3000", "https://merchant.incredibledeals.in", "http://88.222.241.94:3000", "http://localhost:3001", "http://localhost:3002", "http://localhost:3003", "https://incredibledeals.in", "https://admin.incredibledeals.in"],
+    origin: ["http://localhost:3000", "https://incredibles-frontend.vercel.app", "https://merchant.incredibledeals.in", "http://88.222.241.94:3000", "http://localhost:3001", "http://localhost:3002", "http://localhost:3003", "https://incredibledeals.in", "https://admin.incredibledeals.in"],
     credentials: true
 }));
 
